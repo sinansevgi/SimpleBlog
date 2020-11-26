@@ -1,2 +1,33 @@
 # SimpleBlog
-Simple blog app made with Ruby of Rails
+> This project serves as an introduction to ruby on rails. The main goal was to build a Blog app using this framework, it also involves an overview of important topics like HTTP, MVC, REST, APIs, Cookies and Authentication.
+
+## Built With
+> Ruby on Rails
+
+## Getting Started
+
+- Clone the github repository https://github.com/sinansevgi/SimpleBlog.git on your local machine
+- Cd into the `SimpleBlog` folder
+- Open your terminal in the project directory
+- Simply type `rails s` in the terminal then press enter to run server
+
+
+## Author
+
+👤 **Iyadi Oluwaseun**
+- Github: [@CornerstoneII](https://github.com/CornerstoneII)
+- Linkedin: [CornerstoneII](https://www.linkedin.com/in/oluwaseun-iyadi-773584b4/)
+
+👤 **Sinan Sevgi**
+- GitHub: [@sinansevgi](https://github.com/sinansevgi)
+- LinkedIn: [@sinansevgi](https://www.linkedin.com/in/sinan-s-52559437/)
+- Twitter: [@nativeofcybers1](https://twitter.com/nativeofcybers1)
+
+
+## Show your support
+
+If you've read this far, pls give us a ⭐️!
+
+## Acknowledgments
+
+- Microverse.
