@@ -4,6 +4,9 @@
 ## Built With
 > Ruby on Rails
 
+## Demo
+[Link](https://young-thicket-27023.herokuapp.com/)
+
 ## Getting Started
 
 - Clone the github repository https://github.com/sinansevgi/SimpleBlog.git on your local machine
