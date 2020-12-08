@@ -33,4 +33,5 @@ If you've read this far, pls give us a ⭐️!
 
 ## Acknowledgments
 
-- Microverse.
+- This project made for learning purposes.
+- We followed [this](http://tutorials.jumpstartlab.com/projects/blogger.htm) guide for making this project. 
