@@ -1,16 +1,22 @@
 <h1><%= @article.title %></h1>
+<% unless @article.image.url == '/images/original/missing.png'%>
 <p><%= image_tag @article.image.url %></p>
-<p><%= @article.body %></p>
+ <% end %>
+
+    <p><%= @article.body %></p>
 <p>
   Tags:
   <% @article.tags.each do |tag| %>
     <%= link_to tag.name, tag_path(tag) %>
   <% end %>
 </p>
+
+<% if logged_in? %>
 <%= link_to "<< Back to Articles List", articles_path %>
 <%= link_to "edit", edit_article_path(@article) %>
 <%= link_to "delete", article_path(@article), method: :delete, data: {confirm: "Really delete the article?"} %>
 <%= render partial: 'comments/form' %>
+<% end %>
 
 <h3>Comments (<%= @article.comments.size %>)</h3>
 <%= render partial: 'articles/comment', collection: @article.comments %>
